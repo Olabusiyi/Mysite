@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  line-height: 2;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3{
+  color: #11999E;
+}
+
+hr{
+  border-top: 7px dotted #e1e5ea;
+  border-bottom: none;
+  width: 5%;
+  border-left: none;
+}
+
+p{
+  line-height: 2.0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a{
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+
+.middle-container {
+}
+
+.bottom-container {
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profilepic{
+  padding: 20px;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+}
+
+.ball {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin-left: 25px;
+
+}
+
+.code{
+  border-radius: 50%;
+  object-fit: cover;
+  width: 25%;
+  float:left;
+  margin-right: 30px
+}
+
+.footer-link{
+  color: #11999E;
+}
+
+.contact-me{
+  color: #11999E;
+  padding-bottom: 70px;
+  padding-top: 50px;
+}
+
+.skill-row{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 50%;
+  text-align: left;
+
+}
+
+.bottom-container{
+ background-color: #66BFBf;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ color: #EAF6F6;
+}
+
+.footer-link{
+  padding: 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover{
+  color: #EAf6f6
+}
+
+.profile{
+  padding-bottom: 20px;
+  width: 33%;
+  margin: 100px auto 70px auto;
+}
+
+
+.skills{
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.getintouch{
+  padding-bottom: 60px;
+}
+
+.btn{
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 15px;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:Hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+/* We should have made them absolute but relative to th container*/
